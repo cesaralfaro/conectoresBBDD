@@ -1,0 +1,98 @@
+
+			-----Ejercicios Agencia Contactos-----
+
+1- Mostrar todas las mujeres(nombre y alias) que cobren mas de 1200 euros
+
+SELECT Nombre,Alias FROM usuarios WHERE Ingresos_mensuales>1200 AND Sexo='Mujer';
+
+		
+
+2- Mostrar El hombre (nombre e Ingresos_mensuales) que cobre mas que ninguno
+	
+	
+
+3- Mostrar todos los hombres (nombre y fecha_nacimiento) mayores de 40 años
+
+SELECT Nombre,Fecha_nacimiento FROM usuarios WHERE Fecha_nacimiento>1974-03-14 AND Sexo='Hombre';
+	
+
+4- Mostrar las mujeres(nombre y fecha_nacimiento) de entre 30 y 50 años
+
+SELECT Nombre,Fecha_nacimiento FROM usuarios WHERE Fecha_nacimiento<'1984-03-14' AND Fecha_nacimiento>'1964-03-14' AND Sexo='Mujer';
+	
+
+5- Mostrar la media de salarios(nombre, salario) de los hombres mayores de 40 años
+	
+	
+
+6- Mostrar todos los que tengan salario superior (nombre y salario) a la mitad del salario maximo.
+
+	
+
+7- Mostrar numero de mujeres en total
+	
+
+8- Numero de gente disponible
+	
+
+9- Salario medio por cada orientacion sexual
+	
+
+10- Se desea aumentar un 10% el salario de los hombres casados, un 20% los divorciados y un 5% a todas las mujeres.¿Cuales serán los resultados ordenados alfabeticamente por nombre? 
+	
+
+
+11- Nombre de personas cuyo salario sea igual a la 1/10 de los ahorros de alguna persona.
+	
+	
+
+
+12- Aumentar el sueldo de las mujeres un 5% que sea inferior a la media de salarios (de todos incluido los hombres).
+
+	
+
+13- Mostrar personas (n tel y nombre) cuya extension sea 934 o 936
+	
+	
+
+14- Mostrar los distintos tipos de aficiones registradas en la bd.
+	
+	
+
+15- Mostrar todos los casados que tengan correo de hotmail
+
+
+16- Mostrar personas que no tengan movil ni hijos.
+	
+	
+
+17- Mostrar todas las personas (alias y nombre) que su alias empiecen por R. Ordenar por nombre.
+		
+		
+
+18- Mostrar nombre de las personas que no esten desempleadas y que no tengan profesion.
+	
+
+19- Mostrar si alguna persona tiene la misma aficion1 que la aficion2
+	
+	
+
+20- Modificar las personas que no tengan nada en observacion y insertarles "Sin observacion" en el campo
+	
+	
+
+21- Cuanto tendre de salario total juntando todos los salarios
+
+
+
+22- Mostrar Alias de las personas que cobren entre 2000 y 4000 euros
+
+	
+
+23- Mostrar cuantas personas tengo en la agencia (cambiando el nombre a la columna resultante)
+
+	
+
+
+
+Angel Cifuentes Torres -- Logic Computers
